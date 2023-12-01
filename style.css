@@ -1,0 +1,391 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+:root{
+    --primary: #fcb900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    background-color: var(--primary);
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    height: 100px;
+}
+
+
+nav {
+    background-color: #fcb900;
+    padding: 40px 0;
+}
+
+main {
+    background-color: white;
+    padding: 60px 0;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: 100;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-home{
+    background-color: var(--primary);
+    /* padding-bottom: 4rem; */
+    display: flex;
+    height: 300px;
+}
+.container-header-home{
+    /* padding-top: 80px; */
+    flex: 2;
+}
+
+.container-header-home h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.container-header-home h6{
+    margin: 10px 0px;
+    padding-top: 50px;
+    display: block;
+    font-size: 20px;
+}
+
+.header-home .bg{
+    background-image: url('img/domenico-loia-hGV2TfOh0ns-unsplash.jpg');
+    width: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    height: 100%;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+
+.container-main p{
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.container-main h6{
+    padding: 20px auto;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.card{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.card .item{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.card-icon{
+    flex: 1;
+}
+
+.card-title{
+    flex: 2;
+}
+
+.card-desc{
+    flex: 2;
+}
+
+.card-button{
+    flex: 0.5;
+}
+
+.card-button a{
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    text-decoration-style: Solid !important;
+    line-height: em !important;
+    text-transform: Uppercase !important;
+    letter-spacing: px !important;
+    word-spacing: px !important;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    color: #000000;
+    background-color: rgba(0,0,0,0.00);
+    -webkit-transition: all 400ms;
+    transition: all 400ms;
+    border-style: solid;
+    border-color: #f2ad48;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-radius: 10px;
+}
+
+.item h6{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+.item i{
+    font-size: 35px;
+}
+
+.item p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-bottom: 25px;
+    box-sizing: border-box; 
+    font-weight: 200;
+}
+
+footer .pt-name{
+    background-color: black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+footer .pt-name .title-pt{
+    flex: 1.5;
+    padding: 5%;
+    width: 100%;
+    color: var(--primary);
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+}
+
+footer .pt-name .desc-pt{
+    flex: 1.5;
+    padding: 5%;
+    width: 100%;
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: medium;
+}
+
+footer .pt-name .sosmed-pt{
+    flex: 0.5;
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer .services{
+    background-color: black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0 5% 5%;
+    
+}
+
+footer .services .title-services{
+    flex: 0.5;
+    padding: 5%;
+    width: 100%;
+    color: var(--primary);
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+}
+
+footer .services .desc-services{
+    flex: 3;
+    padding: 0 5%;
+    width: 100%;
+}
+
+footer .services .desc-services ul{
+    list-style-type: disc;
+    display: block;
+}
+
+footer .services .desc-services ul li{
+    display: list-item;
+    margin: 20px 0;
+}
+
+footer .services .desc-services ul li a{
+    color: #ffffff;
+}
+.pagelayer-ele-link {
+    text-decoration: none;
+    box-shadow: none !important;
+    border: none;
+}
+
+.pagelayer-list-icon-holder {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+ .pagelayer-list-icon {
+    color: #ffffff;
+    font-size: 8px;
+    margin: 5px 0;
+}
+
+ .pagelayer-list-item {
+    color: #ffffff;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.pagelayer-list-icon-holder {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+footer .contact{
+    background-color: black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+footer .contact .title-contact{
+    flex: 0.5;
+    padding: 5%;
+    width: 100%;
+    color: var(--primary);
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+}
+
+footer .contact .desc-contact{
+    flex: 2.5;
+    padding: 0 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-contact .contact-item{
+    display: flex;
+    margin: 0.5em 0;
+}
+
+.desc-contact .contact-item i{
+    margin: 0 0.5em;
+    padding-top: 5px;
+}
+
+.desc-contact .contact-item p{
+    margin: 0 0.5em;
+    line-height: 1.6;
+    font-size: medium;
+}
+
+.about-us-container{
+    background-image: url('img/domenico-loia-hGV2TfOh0ns-unsplash.jpg');
+    width: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    min-height: 100vh;
+}
